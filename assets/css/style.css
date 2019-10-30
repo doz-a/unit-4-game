@@ -11,8 +11,16 @@ body {
 
 .container {
     width: auto;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     background-color: white;
     opacity: .8;
+    padding: 30px;
+}
+
+.card {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
 }
