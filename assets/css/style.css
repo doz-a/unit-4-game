@@ -1,0 +1,18 @@
+/* background image  */
+
+body {
+    background-image: url(../images/foods.jpg);
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+/* get container holding main text that is slightly transparent to see all the food and make people hungry  */
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    opacity: .8;
+}

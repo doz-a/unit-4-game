@@ -5,19 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FEED ME</title>
+    <title>FEED ME FIESTA</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- css and reset css  -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
-    lets see if these words appear
+    <div class="container">
+        <h2>Guess my Letter</h2>
+        <!-- Bossy Box -->
+        <h3>
+            <div id=instructions>
+                Press any key to get started! :)
+            </div>
+        </h3>
+        <!-- Wins  -->
+        <h5>Wins:</h5>
+        <div id="wins">0</div>
+        <h5>Losses:</h5>
+        <div id="losses">0</div>
+        <!-- Guesses left  -->
+        <h5>Guesses Remaining:</h5>
+        <div id="guessesleft">12</div>
+        <!-- Letters guessed  -->
+        <h5>Letters Already Guessed:</h5>
+        <div id="lettersguessed">--</div>
+        <h5>The previous letter was....</h5>
+        <div id="mainletterx">--</div>
+    </div>
 
 
     <!-- javascript here at end  -->
