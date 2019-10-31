@@ -18,7 +18,7 @@ $(document).ready(function () {
     var foodvalue3 = Math.floor(Math.random() * 11 + 1)
     var foodvalue4 = Math.floor(Math.random() * 11 + 1)
 
-    // Event for clicking on food
+    // Event for clicking on food 1
     $("#food1").on("click", function () {
         fullness = fullness + foodvalue1;
 
@@ -31,11 +31,31 @@ $(document).ready(function () {
         // Changes current fatness display :)
         $("#currentfatness").text(fullness);
 
+        // Win condition
         if (fullness == goalNumber) {
-            $("#instructions").text("cat is now fat :)");
+            $("#instructions").text("The Cat is now perfectly stuffed :)");
+
+            // resets game goal 0, fullness 0,  new goal number, new food values
+            goalNumber = Math.floor(Math.random() * 101 + 19);
+            $("#goalNumberShow").text(goalNumber);
+            foodvalue1 = Math.floor(Math.random() * 11 + 1);
+            fullness = 0;
+            totalwins = totalWins + 1;
+            $("#wins").text(totalWins);
         }
+
+        // Lose condition 
         else if (fullness > goalNumber) {
-            $("#instructions").text("cat has exploded!!! :( :( :(")
+            $("#instructions").text("The cat has exploded!!! :( :( :(");
+
+            // resets game turn into function?
+            goalNumber = Math.floor(Math.random() * 101 + 19);
+            $("#goalNumberShow").text(goalNumber);
+            foodvalue1 = Math.floor(Math.random() * 11 + 1);
+            fullness = 0;
+            totalLosses = totalLosses + 1;
+            $("#losses").text(totalLosses);
+
         }
     })
 
