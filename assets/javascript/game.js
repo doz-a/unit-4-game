@@ -31,6 +31,9 @@ $(document).ready(function () {
         // Changes current fatness display :)
         $("#currentfatness").text(fullness);
 
+        // Shows display on points1 
+        $("#points1").text(foodvalue1);
+
         // Win condition
         if (fullness == goalNumber) {
             $("#instructions").text("The Cat is now perfectly stuffed :)");
@@ -46,6 +49,11 @@ $(document).ready(function () {
             $("#winsx").text(totalWins);
             console.log("wins: " + totalWins);
             fullness = 0;
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
 
         // Lose condition 
@@ -62,6 +70,11 @@ $(document).ready(function () {
             fullness = 0;
             totalLosses++;
             $("#losses").text(totalLosses);
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
     })
 
@@ -82,6 +95,9 @@ $(document).ready(function () {
         // Changes current fatness display :)
         $("#currentfatness").text(fullness);
 
+        // Shows display on points2
+        $("#points2").text(foodvalue2);
+
         // Win condition
         if (fullness == goalNumber) {
             $("#instructions").text("The Cat is now perfectly stuffed :)");
@@ -97,6 +113,11 @@ $(document).ready(function () {
             $("#winsx").text(totalWins);
             console.log("wins: " + totalWins);
             fullness = 0;
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
 
         // Lose condition 
@@ -113,6 +134,11 @@ $(document).ready(function () {
             fullness = 0;
             totalLosses++;
             $("#losses").text(totalLosses);
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
     })
 
@@ -134,6 +160,9 @@ $(document).ready(function () {
         // Changes current fatness display :)
         $("#currentfatness").text(fullness);
 
+        // Shows display on points3
+        $("#points3").text(foodvalue3);
+
         // Win condition
         if (fullness == goalNumber) {
             $("#instructions").text("The Cat is now perfectly stuffed :)");
@@ -149,6 +178,11 @@ $(document).ready(function () {
             $("#winsx").text(totalWins);
             console.log("wins: " + totalWins);
             fullness = 0;
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
 
         // Lose condition 
@@ -165,6 +199,11 @@ $(document).ready(function () {
             fullness = 0;
             totalLosses++;
             $("#losses").text(totalLosses);
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
     })
 
@@ -186,6 +225,9 @@ $(document).ready(function () {
         // Changes current fatness display :)
         $("#currentfatness").text(fullness);
 
+        // Shows display on points4
+        $("#points4").text(foodvalue4);
+
         // Win condition
         if (fullness == goalNumber) {
             $("#instructions").text("The Cat is now perfectly stuffed :)");
@@ -201,6 +243,11 @@ $(document).ready(function () {
             $("#winsx").text(totalWins);
             console.log("wins: " + totalWins);
             fullness = 0;
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
 
         // Lose condition 
@@ -217,6 +264,11 @@ $(document).ready(function () {
             fullness = 0;
             totalLosses++;
             $("#losses").text(totalLosses);
+            $("#points1").text("--");
+            $("#points2").text("--");
+            $("#points3").text("--");
+            $("#points4").text("--");
+            $("#currentfatness").text("---");
         }
     })
 

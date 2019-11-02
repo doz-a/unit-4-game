@@ -29,3 +29,29 @@ body {
     max-height: 25%;
     max-width: 25%;
 }
+
+/* style for points that show up on the food  */
+
+#points1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+
+#points2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+
+#points3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+
+#points4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
