@@ -39,9 +39,10 @@ $(document).ready(function () {
             goalNumber = Math.floor(Math.random() * 101 + 19);
             $("#goalNumberShow").text(goalNumber);
             foodvalue1 = Math.floor(Math.random() * 11 + 1);
-            fullness = 0;
             totalwins = totalWins + 1;
-            $("#wins").text(totalWins);
+            $("#winsx").text(totalWins);
+            console.log("wins: " + totalWins);
+            fullness = 0;
         }
 
         // Lose condition 
