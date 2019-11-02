@@ -39,7 +39,7 @@ $(document).ready(function () {
             goalNumber = Math.floor(Math.random() * 101 + 19);
             $("#goalNumberShow").text(goalNumber);
             foodvalue1 = Math.floor(Math.random() * 11 + 1);
-            totalwins = totalWins + 1;
+            totalWins++;
             $("#winsx").text(totalWins);
             console.log("wins: " + totalWins);
             fullness = 0;
@@ -54,24 +54,8 @@ $(document).ready(function () {
             $("#goalNumberShow").text(goalNumber);
             foodvalue1 = Math.floor(Math.random() * 11 + 1);
             fullness = 0;
-            totalLosses = totalLosses + 1;
+            totalLosses++;
             $("#losses").text(totalLosses);
-
         }
     })
-
-    // win function
-    // function won() {
-    //     totalWins = totalWins + 1;
-    // }
-    // lose function
-    // function lost() {
-    //     $("#instructions").text("You Lost!!!!!");
-    //     totalLosses = totalLosses + 1;
-
-
-    // }
-    // reset game function 
-
-
 })
